@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+
+/* container rule */
+.container-max {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:focus {
+  outline: 3px solid rgba(59,130,246,0.25);
+  outline-offset: 2px;
+}
