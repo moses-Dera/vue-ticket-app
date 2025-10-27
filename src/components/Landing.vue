@@ -17,7 +17,7 @@
       <img src="/shared-assets/wave-hero.svg" alt="" class="w-full block" />
     </div>
 
-    <div class="container-max px-6 -mt-12">
+    <div class="container-max px-6 mt-12">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div v-for="f in features" :key="f.title" class="bg-white rounded-2xl shadow-md p-6">
           <h3 class="font-semibold text-lg">{{ f.title }}</h3>
